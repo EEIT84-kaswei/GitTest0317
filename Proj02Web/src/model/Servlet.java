@@ -15,13 +15,13 @@ public class Servlet extends HttpServlet {
 		PrintWriter out = response.getWriter();
 		out.println("<html><body>");
 		out.println("<h1>test</h1>");
-		out.println("</html></body>");
+		out.println("<h2>test</h2>");
+		out.println("</body></html>");
 	}
 
 	@Override
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		// TODO Auto-generated method stub
-		this.doPost(request, response);
+		this.doGet(request, response);
 	}
 
 }
