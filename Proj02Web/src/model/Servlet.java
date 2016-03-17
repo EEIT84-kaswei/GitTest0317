@@ -14,8 +14,9 @@ public class Servlet extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		PrintWriter out = response.getWriter();
 		out.println("<html><body>");
-		out.println("<h1>test</h1>");
-		out.println("<h2>test</h2>");
+		out.println("<title>yeahhhhh</title>");
+		out.println("<h1 style='color:red;background-color:yellow'>test</h1>");
+		out.println("<h2 style='text-align:center;color:green'>test</h2>");
 		out.println("</body></html>");
 	}
 

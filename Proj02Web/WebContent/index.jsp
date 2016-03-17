@@ -9,6 +9,7 @@
 <body>
 	<a href="servlet/test">testServlet</a>
 	<h1>this is a test line</h1>
-	<h2>Go go go!</h2>
+	<h2>Go go go go go!</h2>
+	
 </body>
 </html>
