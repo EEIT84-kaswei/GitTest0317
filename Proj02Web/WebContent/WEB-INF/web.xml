@@ -10,7 +10,7 @@
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
   <servlet>
-  <servlet-name>Servlet111</servlet-name>
+  <servlet-name>Servlet1</servlet-name>
   <servlet-class>model.Servlet</servlet-class>
   </servlet>
   <servlet-mapping>
