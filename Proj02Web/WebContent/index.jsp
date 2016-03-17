@@ -8,5 +8,6 @@
 </head>
 <body>
 	<a href="servlet/test">testServlet</a>
+	<a href="servlet/test">testServlet123456789</a>
 </body>
 </html>
